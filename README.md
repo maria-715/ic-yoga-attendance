@@ -1,9 +1,15 @@
 # IC Yoga Attendance App
 
-This is a web application for the Yoga Society of Imperial College London, used for managing attendance of classes, tracking ticket usage, and syncing data from the Imperial College Union API.
+Full-stack web application developed for the Yoga Society of Imperial College London to manage class attendance, ticket usage, and synchronisation with the Imperial College Union API.
 
-It is a [Next.js](https://nextjs.org) project built mainly with TypeScript, with some backhand logic in JavaScript, and styled using Tailwind CSS. FireBase FireStore is used as the persistent database for all data related to users, tickets, and classes.
+Built with Next.js and TypeScript, the application integrates external API data, implements multi-use ticket validation logic, and uses Firebase Firestore for persistent storage related to users, tickets, and classes. The system has been designed for society coordinators to manage classes and attendance records.
 
+## Tech Stack
+- Next.js (React)
+- TypeScript
+- Firebase Firestore
+- Tailwind CSS
+- REST API integration (Imperial College Union)
 
 ## Running the webapp
 
